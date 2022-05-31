@@ -1,0 +1,10 @@
+version: dotnet=6.0.5
+kind: pod
+metadata:
+  name: vscode
+  app: console
+spec: 
+container:
+  name: cranky_gould
+  image: msagarika08/vscodemo:latest
+  containerport: 80
